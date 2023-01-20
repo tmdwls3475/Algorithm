@@ -10,4 +10,4 @@ for _ in range(n):
     for _ in range(M):
         a, b = map(int,sys.stdin.readline().split())
     
-    print(n - 1)
+    print(N - 1)
