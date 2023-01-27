@@ -1,4 +1,5 @@
 # 자료구조, 스택
+
 import sys
 
 stack = []
@@ -14,26 +15,20 @@ for _ in range(n):
     elif l[0] == 'pop':
         if len(stack) == 0:
             print(-1)
-            count += 1
             continue
         print(stack.pop())
-        count += 1
     
     elif l[0] == 'size':
         print(len(stack))
-        count += 1
     
     elif l[0] == 'empty':
         if len(stack) == 0:
             print(1)
         else:
             print(0)
-        count += 1
     
     elif l[0] == 'top':
         if len(stack) == 0:
             print(-1)
-            count += 1
             continue
         print(stack[-1])
-        count += 1
